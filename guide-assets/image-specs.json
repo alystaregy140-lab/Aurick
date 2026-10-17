@@ -1,0 +1,186 @@
+[
+  {
+    "id": "offer",
+    "ar": "صورة عرض الخصم",
+    "en": "Offer dialog image",
+    "desktop": [
+      1200,
+      1200
+    ],
+    "mobile": [
+      1200,
+      1200
+    ],
+    "ratio": "variable",
+    "status": "recommended",
+    "source": "appearance/header",
+    "format": "WebP / JPG",
+    "note": [
+      "ارفع صورة واحدة 1200×1200 للعرض من أعلى الصفحة ← العرض. هذا مقاس تجهيز مقترح وليس شرطًا من زد. على الديسكتوب مساحة الصورة تتغيّر مع طول النص؛ على الموبايل تُقص من المنتصف بنسبة 16:9. أبقِ الموضوع المهم داخل الشريط الأوسط 1200×675، مع هامش إضافي، واكتب العنوان والكود في خانات النص بدل تضمينهما بالصورة. استهدف ملفًا مضغوطًا نحو 200KB أو أقل مع الحفاظ على الجودة؛ ليس حد رفع رسميًا.",
+      "Upload one 1200×1200 image in Header → Offer. This is a recommended preparation size, not a Zid requirement. Desktop image height follows the content; mobile uses a centered 16:9 cover crop. Keep the subject within the middle 1200×675 band with extra margin, and put the heading/code in their text fields instead of the artwork. Aim for a compressed file around 200KB or less without visible quality loss; this is not an official upload limit."
+    ]
+  },
+  {
+    "id": "hero",
+    "ar": "ساعة البانر الرئيسي",
+    "en": "Hero watch",
+    "desktop": [
+      1000,
+      1200
+    ],
+    "mobile": [
+      1000,
+      1200
+    ],
+    "ratio": "5:6",
+    "status": "recommended",
+    "source": "hero",
+    "format": "WebP / PNG",
+    "alpha": true,
+    "note": [
+      "النسبة التقريبية 5:6 والخلفية الشفافة مذكورتان في إعداد القسم. 1000×1200 مقاس تصدير مقترح، وليس شرطًا من زد. اجعل الساعة أمامية والسوار كاملًا.",
+      "The section specifies an approximate 5:6 ratio and transparency. 1000×1200 is a suggested export size, not a Zid requirement. Keep the watch front-facing with its full bracelet."
+    ]
+  },
+  {
+    "id": "countdown",
+    "ar": "خلفية العد التنازلي",
+    "en": "Countdown background",
+    "desktop": [
+      1920,
+      1000
+    ],
+    "mobile": [
+      1080,
+      1350
+    ],
+    "ratio": "variable",
+    "status": "verified",
+    "source": "countdown",
+    "format": "WebP / JPG",
+    "note": [
+      "المقاسان مذكوران في إعدادات القسم. الخلفية قد تُقص حسب الشاشة؛ ضع الموضوع المهم في المنتصف، واترك مساحة للنص.",
+      "Both sizes are specified in the section settings. Backgrounds can crop by viewport; center the subject and leave room for copy."
+    ]
+  },
+  {
+    "id": "video",
+    "ar": "غلاف قسم الفيديو",
+    "en": "Video section cover",
+    "desktop": [
+      1920,
+      1080
+    ],
+    "mobile": [
+      1080,
+      1350
+    ],
+    "status": "verified",
+    "source": "video",
+    "format": "WebP / JPG",
+    "note": [
+      "تعمل الصورة كغلاف أو تظهر وحدها عند عدم رفع فيديو. مقاس الموبايل المذكور اختياري. تجنب كتابة نص داخل الصورة.",
+      "The image is a cover or a standalone fallback when no video is uploaded. The specified mobile size is optional. Avoid baking text into the image."
+    ]
+  },
+  {
+    "id": "scroll-bg",
+    "ar": "خلفية البطاقات المتحركة",
+    "en": "Scroll cards background",
+    "desktop": [
+      1920,
+      1080
+    ],
+    "mobile": [
+      1080,
+      1350
+    ],
+    "status": "verified",
+    "source": "scroll-cards",
+    "format": "WebP / JPG",
+    "note": [
+      "المقاسات من تعليمات الحقول. اختر خلفية هادئة حتى تظل البطاقات والنصوص واضحة.",
+      "Sizes come from field guidance. Choose a quiet background so the cards and copy remain legible."
+    ]
+  },
+  {
+    "id": "scroll-card",
+    "ar": "صورة البطاقة المتحركة",
+    "en": "Scroll card image",
+    "desktop": [
+      1000,
+      1000
+    ],
+    "mobile": [
+      1000,
+      1000
+    ],
+    "status": "verified",
+    "source": "scroll-cards",
+    "format": "WebP / JPG",
+    "note": [
+      "الإعداد يوصي بصورة 1000×1000. ضع المنتج أو العنصر الأساسي داخل حدود الصورة دون قصه.",
+      "The field recommends 1000×1000. Keep the main subject within the image boundaries."
+    ]
+  },
+  {
+    "id": "story",
+    "ar": "صورة حكاية العلامة",
+    "en": "Brand story portrait",
+    "desktop": [
+      1000,
+      1250
+    ],
+    "mobile": [
+      1000,
+      1250
+    ],
+    "status": "recommended",
+    "source": "brand-story",
+    "format": "WebP / JPG",
+    "note": [
+      "القالب يعرض الصورة بنسبة 4:5. المقاس العددي اقتراح تصدير مناسب لهذه النسبة، وليس حدًا تفرضه المنصة.",
+      "The template displays a 4:5 image. The pixel size is a matching export recommendation, not a platform limit."
+    ]
+  },
+  {
+    "id": "marquee",
+    "ar": "الصورة الدائرية للشريط",
+    "en": "Marquee circle image",
+    "desktop": [
+      320,
+      320
+    ],
+    "mobile": [
+      320,
+      320
+    ],
+    "status": "recommended",
+    "source": "image-marquee",
+    "format": "WebP / JPG",
+    "note": [
+      "مقاس مربع مقترح لعرض دائري صغير. اجعل الموضوع في المنتصف وبعيدًا عن الأطراف؛ المقاس ليس إلزاميًا.",
+      "A suggested square export for a small circular crop. Keep the subject centered and away from the edges. This size is not mandatory."
+    ]
+  },
+  {
+    "id": "category",
+    "ar": "صورة التصنيف",
+    "en": "Category image",
+    "desktop": [
+      1000,
+      1000
+    ],
+    "mobile": [
+      1000,
+      1000
+    ],
+    "status": "recommended",
+    "source": "explore-cards",
+    "format": "WebP / JPG",
+    "note": [
+      "ترفع من بيانات التصنيف في متجرك. هذا مقاس تحضيري مقترح؛ راجع القص في عرض الديسكتوب والموبايل لأن التكوين يختلف.",
+      "Upload this through your store’s category data. This is a preparation recommendation; check desktop and mobile crops because the layout differs."
+    ]
+  }
+]
